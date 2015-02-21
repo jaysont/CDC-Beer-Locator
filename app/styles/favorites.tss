@@ -1,0 +1,53 @@
+"#favoritesWindow": {
+	backgroundColor: "white"
+},
+"#headerView": {
+	width: "100%",
+	height: "10%",
+	backgroundColor: "#554E4A",
+	top: "20"
+}
+"#header": {
+	text: "Locate Brews!",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontWeight: "bold",
+		fontSize: Alloy.CFG.fontSize.s2
+	},
+	color: "white"
+}
+"#headerLabel": {
+	text: 'Favorites',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "white",
+	left: "10%",
+	width: "80%",
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: Alloy.CFG.fontSize.s4,
+		fontWeight: "bold"
+	}
+},
+"#returnView": {
+	left: 0,
+	width: "20%",
+	zIndex: 100
+}
+"#returnButton": {
+	color: "white",
+	image: "images/back-arrow.png",
+	width: "20%",
+	left: "20%"	
+},
+"#deleteButton": {
+	backgroundImage: "images/button-delete.png",
+	right: "5%",
+	height: Alloy.CFG.deleteButton,
+	width: Alloy.CFG.deleteButton
+},
+"#favoritesTable": {
+	top: "18%",
+	height: Ti.UI.SIZE,
+	width: "90%",
+	separatorColor: "#554E4A"
+}

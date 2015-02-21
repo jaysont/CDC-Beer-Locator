@@ -1,0 +1,12 @@
+<Alloy autoStyle="true">
+	<Window id="favoritesWindow">
+		<View id="headerView">
+			<Label id="headerLabel"/>
+			<View id="returnView">
+				<ImageView id="returnButton"/>
+			</View>
+			<Button id="deleteButton"/>
+		</View>
+		<TableView id="favoritesTable"/>
+	</Window>
+</Alloy>

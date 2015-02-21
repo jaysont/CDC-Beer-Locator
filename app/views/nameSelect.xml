@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="nameSelectWindow">
+		<View id="pageView">
+			<View id="headerView">
+				<Label id="headerLabel1"/>
+				<View id="returnView">
+					<ImageView id="returnButton"/>
+				</View>
+			</View>
+			<TableView id="tableView"></TableView>
+		</View>
+	</Window>
+</Alloy>

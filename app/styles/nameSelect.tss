@@ -1,0 +1,34 @@
+"#pageView": {
+	layout: 'vertical',
+	top: 20
+}
+"#headerView": {
+	width: "100%",
+	height: "10%",
+	backgroundColor: "#554E4A"
+}
+"#headerLabel1": {
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "white",
+	text: "Please select a beer",
+	font: {
+		fontSize: Alloy.CFG.fontSize.s4,
+		fontStyle: "italic"
+	}
+},
+"#returnView": {
+	left: 0,
+	width: "20%",
+	zIndex: 100
+}
+"#returnButton": {
+	color: "white",
+	image: "images/back-arrow.png",
+	width: "20%",
+	left: "20%"	
+},
+"#tableView": {
+	separatorStyle:  Titanium.UI.iPhone.TableViewStyle.GROUPED,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}

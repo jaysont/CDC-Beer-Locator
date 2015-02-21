@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="mapWindow">
+		<View id="pageView">
+			<View id="headerView">
+				<Label id="headerLabel1"/>
+				<Label id="headerLabel2"/>
+				<View id="returnView">
+					<ImageView id="returnButton"/>
+				</View>
+			</View>
+			<View id="map" ns="Alloy.Globals.Map"/>
+			<View id="footerView">
+				<Label id="footerLabel"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>

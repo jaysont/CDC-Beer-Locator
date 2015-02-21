@@ -1,0 +1,32 @@
+<Alloy autoStyle="true">
+	<Window id="window">
+		<View id="headerView">
+			<Label id="header"/>
+			<Button id="infoButton"/>
+		</View>
+		<View id="brandView">
+			<ImageView id="brandSelectImage"/>
+			<Label id="brandLabel"/>
+			<ImageView id="arrowBrand"/>
+		</View>
+		<View id="packageView">
+			<ImageView id="packageSelectImage"/>
+			<Label id="packageLabel"/>
+			<ImageView id="arrowPackage"/>
+		</View>
+		<View id="buttonBar">
+			<Button id="allButton" />
+			<Button id="restaurantButton"/>
+			<Button id="storeButton"/>
+		</View>
+		<View id="findView">
+			<Label id="findBeer"/>
+			<ImageView id="findBeerImage"/>
+			<ImageView id="findBeerArrow"/>
+		</View>
+		<View id="footerView">
+			<Button id="favoritesButton"/>
+			<Button id="addFavorite"/>
+		</View>
+	</Window>
+</Alloy>
